@@ -1,8 +1,5 @@
-/* eslint-disable no-undef */
-
-import Image from "next/image";
 import React from "react";
-
+import Image from "next/image";
 const Layout = ({ children }: { children: React.ReactNode }) => {
   return (
     <div className="flex min-h-screen ">
@@ -15,7 +12,9 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
             height={16}
             className="h-auto"
           />
-          <div className="space-y-5 text-white"></div>
+          <div className="space-y-5 text-white">
+            <h1>hihihihihihihihiih</h1>
+          </div>
         </div>
       </section>
       {children}
